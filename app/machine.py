@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 class PermutationForecaster(object):
-  """A class to preprocess time series data for prediction.
+    """A class to preprocess time series data for prediction.
     Attributes
     ----------
     series: pd.Series
@@ -185,15 +185,4 @@ class PermutationForecaster(object):
         bin_lst.append(1)
     return bin_lst
 
-class Machine:
-    """A machine learning class to fit Random Forest Classifier.
-    Attributes
-    ----------
-    df: DataFrame 
-        a pandas dataframe object
-    Methods
-    ----------
-    save(filepath)
-    open(filepath)
-    info()
-"""
+
